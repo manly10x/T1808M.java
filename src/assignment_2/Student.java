@@ -8,6 +8,8 @@ public class Student {
     public int Tuoi;
     public String Lop;
 
+
+
     public void inputInfo() {
         System.out.println("Nhap ma hoc sinh: ");
         Scanner scanner = new Scanner(System.in);

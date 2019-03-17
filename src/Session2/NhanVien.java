@@ -9,6 +9,30 @@ public class NhanVien {
     public double salary;
     public int workingTime;
 
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public int getWorkingTime() {
+        return workingTime;
+    }
+
+    public NhanVien(){
+        this.inputInfo();
+    }
+
     public void inputInfo()
     {
         System.out.println("Nhap Ten Nhan Vien :");
