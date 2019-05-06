@@ -15,7 +15,7 @@ public class Connector {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             String URL = "jdbc:mysql://localhost:3306/t1808m1";
-            this.conn = DriverManager.getConnection(URL, "huong", "123456");
+            this.conn = DriverManager.getConnection(URL, "anhtuan", "123456");
         }
         catch (Exception e){
             e.printStackTrace();
